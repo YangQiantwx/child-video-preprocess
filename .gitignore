@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Generated pipeline outputs
+outputs/
+runs/
+
+# Downloaded model weights and local videos should not be published.
+*.pt
+*.mp4
